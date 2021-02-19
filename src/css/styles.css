@@ -1,0 +1,414 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+
+@font-face {
+  font-family: 'Larsseit';
+  src: local('Larsseit Bold'), local('Larsseit-Bold'),
+      url('../fonts/Larsseit-Bold.woff2') format('woff2'),
+      url('../fonts/Larsseit-Bold.woff') format('woff'),
+      url('../fonts/Larsseit-Bold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Space-Regular';
+  src: local('Space Grotesk'), local('Space Grotesk'),
+      url('../fonts/SpaceGrotesk-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Space';
+  src: local('Space Grotesk'), local('Space Grotesk'),
+      url('../fonts/SpaceGrotesk-Bold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Monument Extended';
+  src: local('Monument Extended'), local('Monument Extended'),
+      url('../fonts/MonumentExtended-Ultrabold.otf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+.bg-header {
+  background-color: #010312;
+}
+
+.barrita{
+  border-right: 2px solid;
+  height: 13px;
+  margin-top: auto;
+  margin-bottom: auto;
+  cursor: pointer;
+  border-color:#fff;
+}
+
+.barrita :hover {
+  border-right: 2px solid;
+  cursor: pointer;
+  border-color: #EBD23F !important;
+}
+
+.Larsseit{
+  font-family: 'Larsseit';
+}
+
+.space{
+  font-family: 'Space';
+}
+
+.space-regular{
+  font-family: 'Space-Regular';
+}
+
+.monument{
+  font-family: "Monument Extended", Sans-serif;
+}
+
+.fw-bold{
+  font-weight: bold;
+}
+
+.container-header {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+
+.w-1400{
+  width: 100%;
+  max-width: 1400px !important;
+}
+
+.px-20{
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+
+.px-10{
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+
+.blue{
+  color:#4147FD
+}
+
+.white-a{
+  color:#fff;
+}
+
+.white-a :hover{
+  color: #fbd707;
+}
+
+.yellow{
+  color: #fbd707;
+}
+
+.blue-menu{
+  color: #030B46 !important;
+}
+
+.bg-blue{
+  background-color: #EFF0F7;
+}
+
+.text-uppercase{
+  text-transform: uppercase;
+}
+
+.w-1068 {
+  width: 100%;
+  max-width: 1068px !important;
+}
+
+
+.w-70{
+  width: 70%;
+}
+.mt-30{
+  margin-top: 30px;
+}
+
+.tm-36{
+  width: 36px;
+  height: auto;
+}
+
+.img-back{
+  background-image: url("https://e-me.co/wp-content/uploads/2020/08/Group-783_88b5631a9d297747a8b22e9f08a059ca.png");
+  background-repeat: no-repeat;
+  background-position-x: -425px;
+  background-position-y: 28px;
+  background-size: 41%;
+}
+
+.mt-40{
+  margin-top: 40px;
+}
+
+.mt-50{
+  margin-top: 50px;
+}
+
+.mr-6{
+  margin-right: 6px;
+}
+.mt-70{
+  margin-top: 70px;
+}
+
+.fz-10 {
+  font-size: 10px;
+}
+
+.fz-12m{
+  font-size: 12.5px;
+}
+
+.fz-14{
+  font-size: 14px;
+}
+
+.fz-40{
+  font-size: 40px;
+}
+
+.fz-16{
+  font-size: 16px;
+}
+
+.fz-25{
+  font-size: 25px;
+}
+
+.fz-30{
+  font-size: 30px;
+}
+
+.fz-50{
+  font-size: 50px;
+}
+
+@media (min-width: 576px) {
+  .fz-sm-12 {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 768px) {
+  .fz-md-16 {
+    font-size: 16px;
+  }
+}
+
+.container-content{
+  width: 100%;
+  height: 490px;
+}
+
+.pd-15{
+  padding: 15px;
+}
+
+.logo-eme {
+  margin-top: 10px;
+  padding: 10px;
+}
+
+
+ a {
+  background-color: transparent;
+  cursor: pointer;
+  text-decoration: none !important;
+}
+
+img {
+  cursor: pointer;
+}
+
+.espaciado {
+  padding: 10px;
+}
+
+.header {
+  height: 56px;
+  background-color: #010312;
+  width: 100%;
+}
+
+.white {
+  color: white;
+}
+
+.black {
+  color: black !important ;
+}
+
+.blue-dark{
+  color: #030B45;
+}
+
+.dropdown-nav{
+  position: relative;
+  display: none;
+  min-width: 10rem;
+  padding: .5rem 0;
+  margin: .125rem 0 0;
+  font-size: 1rem;
+  color: #212529;
+  text-align: left;
+  list-style: none;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid rgba(0,0,0,.15);
+  border-radius: .25rem;
+}
+
+.dropdown-nav.show {
+  display: block;
+}
+
+.icono {
+  width: 2em;  
+  height: 2em;
+  position: relative;
+  color: #fbd707;
+  display: inline-block;
+}
+
+.icono-plus:before { 
+    content: "\0002B";
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-style: normal;
+    bottom: 18px;
+}
+
+.bgmenu {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 997;
+}
+
+.menu-hidden {
+  color: #000;
+  background-color: #fff;
+  width: 50%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: calc(100vh);
+  z-index: 999;
+  transition: all 0.3s ease !important;
+  transform: translateX(-100%);
+}
+
+.menu-show {
+  color: #000;
+  background-color: #fff;
+  width: 90%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: calc(100vh);
+  z-index: 999;
+  transition: all 0.3s ease !important;
+  transform: translateX(0%);
+}
+
+.button{
+  border-radius: 60px;
+  background-color:#EBD23F;
+}
+
+.br-none{
+  border: none !important;
+}
+
+div #lista{
+  display: none;
+}
+
+
+@media(min-width: 1124px) {
+  div #hamburguesa{
+    display: none;
+  }
+
+  .icon-nav{
+    justify-content: flex-start !important;
+  }
+
+  div #lista{
+    display: flex;
+  }
+
+  .col-custom {
+    flex: 0 0 75%;
+    max-width: 75%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+@media(min-width: 576px) {
+  #eme {
+    width: 200px !important;
+    height: auto;
+  }
+
+}
+
+
+@media(max-width: 576px){
+  #referencia{
+    font-size: 14px;
+  }
+}
+
+@media(min-width: 767px){
+  .menu-show{
+    width: 50%;
+  }
+}
+
+/* 1200 es igual a lg */
+
+@media(min-width:1200px){
+  .w-xl-1400{
+    width: 100%;
+    max-width: 1400px !important;
+  }
+}
+
+#eme {
+  width: 100%;
+
+}
+
+.icon-nav{
+  justify-content: center;
+}
+
